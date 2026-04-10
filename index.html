@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaCore - 미래를 선도하는 IT 혁신</title>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <!-- 배경 애니메이션 그라데이션 원형 -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- 네비게이션바 -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"></span>
+                NovaCore
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 히어로 섹션 -->
+    <section id="home" class="hero fade-up">
+        <div class="hero-content">
+            <h1 class="hero-title">Beyond the limits <br> <span class="text-gradient">Digital Innovation</span></h1>
+            <p class="hero-subtitle">최첨단 AI 알고리즘과 클라우드 인프라를 바탕으로 기업의 디지털 트랜스포메이션을 완성합니다.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">솔루션 보기</a>
+                <a href="#contact" class="btn btn-outline">문의하기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 소개 섹션 -->
+    <section id="about" class="about fade-up">
+        <div class="section-container glass-card">
+            <h2 class="section-title">We are <span class="text-gradient">NovaCore</span></h2>
+            <p class="section-desc">
+                단순한 기술 제공을 넘어, 고객의 비즈니스 도약을 위한 진정한 IT 파트너가 됩니다. <br>
+                데이터의 흐름을 읽고, 보이지 않는 혁신을 설계하는 전문가들이 모였습니다.
+            </p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>150+</h3>
+                    <p>글로벌 파트너</p>
+                </div>
+                <div class="stat-item">
+                    <h3>99.9%</h3>
+                    <p>시스템 안정성</p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p>보안 관제</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 서비스 섹션 -->
+    <section id="services" class="services">
+        <h2 class="section-title text-center fade-up">Our <span class="text-gradient">Services</span></h2>
+        <div class="cards-container">
+            <!-- Service 1 -->
+            <div class="service-card glass-card fade-up">
+                <div class="icon">🤖</div>
+                <h3>AI & Big Data</h3>
+                <p>고도화된 머신러닝 모델과 빅데이터 분석을 통해 비즈니스 인사이트를 도출합니다.</p>
+            </div>
+            <!-- Service 2 -->
+            <div class="service-card glass-card fade-up" style="transition-delay: 0.1s;">
+                <div class="icon">☁️</div>
+                <h3>Cloud Architecture</h3>
+                <p>확장성과 안정성을 보장하는 맞춤형 클라우드 네이티브 인프라를 구축합니다.</p>
+            </div>
+            <!-- Service 3 -->
+            <div class="service-card glass-card fade-up" style="transition-delay: 0.2s;">
+                <div class="icon">🛡️</div>
+                <h3>Cyber Security</h3>
+                <p>최신 보안 위협으로부터 기업의 데이터를 안전하게 보호하는 무결점 솔루션입니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 콘택트 섹션 -->
+    <section id="contact" class="contact fade-up">
+        <div class="section-container glass-card contact-wrapper">
+            <div class="contact-text">
+                <h2 class="section-title">Ready to <span class="text-gradient">Evolve?</span></h2>
+                <p class="section-desc">노바코어와 함께 미래를 준비하세요. 지금 바로 상담을 신청하세요.</p>
+            </div>
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" placeholder="이름" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" placeholder="이메일 주소" required>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">상담 요청하기</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+        <div class="footer-content">
+            <h3 class="footer-logo">NovaCore</h3>
+            <p>미래를 만듭니다.</p>
+            <div class="socials">
+                <a href="#">X</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 NovaCore Incorporated. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
